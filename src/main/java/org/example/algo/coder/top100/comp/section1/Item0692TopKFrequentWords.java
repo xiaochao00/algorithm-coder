@@ -1,4 +1,4 @@
-package org.example.algo.coder.top100.comp;
+package org.example.algo.coder.top100.comp.section1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -55,7 +55,7 @@ public class Item0692TopKFrequentWords {
     }
 
     static class SmallHeap<T extends Comparable> {
-        private T[] entries;
+        private final T[] entries;
         private int count;
 
         SmallHeap(int size, Class<T> clazz) {

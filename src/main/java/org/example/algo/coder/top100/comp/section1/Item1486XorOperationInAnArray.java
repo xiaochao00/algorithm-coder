@@ -1,4 +1,4 @@
-package org.example.algo.coder.top100.comp;
+package org.example.algo.coder.top100.comp.section1;
 
 /**
  * Item1486XorOperationInAnArray
