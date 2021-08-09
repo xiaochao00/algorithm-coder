@@ -27,7 +27,7 @@ public class QuickSort {
     }
 
     private void quickSort(int baseIndex, int endIndex, int[] nums) {
-        if (baseIndex < 0 || endIndex > nums.length || baseIndex > endIndex) {
+        if (baseIndex < 0 || endIndex > nums.length || baseIndex >= endIndex) {
             return;
         }
         int pivot = nums[baseIndex];
@@ -54,7 +54,7 @@ public class QuickSort {
         if (left == right) {
             nums[left] = pivot;
         }
-        quickSort(baseIndex , left - 1, nums);
+        quickSort(baseIndex, left - 1, nums);
         quickSort(left + 1, endIndex, nums);
     }
 }
