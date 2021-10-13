@@ -10,7 +10,7 @@ import java.util.Arrays;
  * 2021/8/11 1:01
  */
 public class RadixSort {
-    public static void main(String[] args) {
+    public static void main(String[] argAs) {
         RadixSort radixSort = new RadixSort();
         radixSort.sort(new int[]{50, 100, 30, 24, 44, 0, 10, 55, 67, 6, 5, 7});
     }
